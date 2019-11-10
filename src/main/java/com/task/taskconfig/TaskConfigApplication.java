@@ -11,6 +11,7 @@ public class TaskConfigApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TaskConfigApplication.class, args);
+        System.out.println("Hello From Dev Branch");
 	}
 
 	@Bean
